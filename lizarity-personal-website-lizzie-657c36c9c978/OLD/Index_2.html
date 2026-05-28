@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lizzie Best Personal Website</title>
+  <link rel="stylesheet" href="/CSS/style.css">
+</head>
+
+<!-- TODO: ok! looks great! lets add bootstrap-->
+
+<body>
+  <div class="wrapper">
+    <div id="NavigationBar">
+      <div class="container-fluid">
+        <img src="Icons/LB_Logo.png"
+          alt="A bright blue logo with a cursive L and the arches of a B on the right ride =">
+
+        <nav>
+          <a href="#AboutMe">About Me</a>
+          <a href="#Skills">Skills</a>
+          <a href="#Experience">Experience</a>
+          <a href="#MyPlan">My Plan</a>
+          <a href="#Contact">Contact</a>
+        </nav>
+      </div>
+    </div>
+
+    <div id="Home">
+      <div id="Introduction">
+        <h1>What's up? I'm Lizzie</h1>
+        <p>I'm passionate about research and people</p>
+        <a href="#">Download Resume</a>
+      </div>
+      <div id="Values">
+        <h2>Values</h2>
+        <ul>
+          <li>Empathetic</li>
+          <li>Open-Minded</li>
+          <li>Ethical</li>
+          <li>Scientifically Curious</li>
+          <li>Independent</li>
+          <li>Resilient</li>
+        </ul>
+      </div>
+      <img src="images/LizzieProfile.jpg" alt="My picture"> <!-- TODO: still not the best  description for a blind person-->
+    </div>
+
+
+
+    <div id="AboutMe">
+      <img src="images/BlackHole.jpg"
+        alt="a Black Hole with Lizzie's name and a monochromatic blue event horizon surrounded by white speckles.">
+      <div id="AboutMeDescription">
+        <h2>About me</h2>
+        <blockquote> Deeply analytical and passionately driven to understand the people and make a positive impact.
+        </blockquote>
+        <p>My curiosity about peoples thoughts, feelings, and behaviors has driven me to develop a deep self awareness,
+          and a passion to help others.
+          When approaching how to understand others, I think systematically to look at the broader context.
+          I aspire to research these questions, building on my undergrad degree in Family Science with a minor in
+          Psychology.
+          My goal is to assist individuals in understanding themselves and their connection to the world, allowing
+          people
+          to find their own meaning in life.
+          Everyone has a story and a purpose.
+          Amor Fati. </p>
+      </div>
+    </div>
+
+    <div id="Skills">
+      <img src="Images/astronaut-unsplash.jpg"
+        alt="An astronaut floating in space in-front of the bright blue earth while holding a camera in one hand and a yellow chord in the other hand that is connected to a station out of frame.">
+      <div id="SkillsList">
+        <h2>Skills</h2>
+        <ul>
+          <li>After Effects</li>
+
+          <li>Illustrator</li>
+
+          <li>Fresco</li>
+
+          <li>Survey development</li>
+
+          <li>SQL</li>
+
+          <li>Presentations</li>
+
+          <li>Kanban Boards</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="Experience">
+      <img src="Images/nasa-Rocket-unsplash.jpg"
+        alt="A Nasa rocket blasting off with bright flames from a station on earth with dust and smoke below ">
+      <div id="ExperienceList">
+        <h2>Experience</h2>
+        <ul>
+          <li>Data Pulling for the 2023 End of Year Report for UCO.</li>
+          <li>Data Pulling and data validating for Mismatched Schedules Type for courses at UCO for Summer 2023, Fall
+            2023, Spring 2024, and Summer 2024 for UCO.</li>
+          <li>Assisted with Blueprint templates in HTML and PHP for Neuroscience and Embodied Learning for UCO.</li>
+          <li>Data validation for Oklahoma Works critical occupations for UCO.</li>
+          <li>Data Pulling and Data entry for eLearning fee research comparisons between UCO and other universities.
+          </li>
+          <li>Research on how to increase enrollment at UCO.</li>
+          <li>Research on how to retain freshman at UCO.</li>
+          <li>Enrollment monitoring emails at UCO.</li>
+          <li>Undergrad Psychology experimental study about stigma towards people with Schizophrenia.</li>
+          <li>Undergrad Psychology experimental study about perceptions of therapists based on their age and mental
+            health
+            history which got 3rd place for best undergraduate paper at the 41st Annual Conference of the Oklahoma
+            Psychological Society.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="MyPlan">
+      <img src="Images/StarrySky-unsplash.jpg"
+        alt="A dark outcast of a man standing on hills while gazing up in the starry sky with a little shooting star">
+      <div id="MyPlanTitle">
+        <h2>My plan</h2>
+      </div>
+      <div id="MyPlanDescription">
+        <p>As a Learning Data Scientist in the IDEA Team at the Center for eLearning and Connected Environments (CeCE),
+          I get to answer questions about online courses that impact college students and the University.
+          College students have unique lives where their only option is to take online or hybrid courses.
+          Researching the eLearning courses gives us information on how to make the courses a better experience.
+          Doing data analysis will allow me to use queries to get information about eLearning courses that we need to
+          make
+          impactful decisions.
+          Helping college students in a beneficial way is important to me because college gives us a space to better
+          understand ourselves and the world,
+          which is what I hope for people to be able to do.</p>
+      </div>
+    </div>
+
+    <div id="Contact"> <!--TODO: something weird is happening here, things are bing doubled up-->
+      <div id="ContactForm">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left" action="#" method="POST"
+          enctype="multipart/form-data">
+          <div class="contact-left-title">
+            <h2>Contact</h2>
+            <input type="hidden" name="access_key" value="796e173a-aa54-43d8-b6ec-3f7af36a68b5">
+            <label class="required" for="name">Name:</label><br />
+            <input id="name" class="contact-inputs" name="name" placeholder="Your Name.." type="text" value=""
+              size="30" /><br />
+            <span id="NameValidation" class="ErrorMessage"></span>
+          </div>
+          <div class="row">
+            <label class="required" for="email">Email:</label><br />
+            <input id="email" class="contact-inputs" name="email" placeholder="Your Email..." type="text" value=""
+              size="30" /><br />
+            <span id="EmailValidation" class="ErrorMessage"></span>
+          </div>
+          <div class="row">
+            <label class="required" for="message">Message:</label><br />
+            <textarea id="message" class="contact-inputs" name="message" placeholder="Write something.." rows="7"
+              cols="30"></textarea><br />
+            <span id="MessageValidation" class="ErrorMessage"></span>
+
+
+            <input id="SubmitButton" type="submit" value="Send email" />
+        </form>
+      </div>
+
+      <div id="Socials">
+      <div id="Instagram">
+        <p><a href="https://www.instagram.com/singularityfe?igsh=MW9scjZ3eGltYzJzZA%3D%3D&utm_source=qr"
+            aria-label="Visit SingularityFe's Instagram Profile">
+            <img src="Icons/Insta.png"
+              alt="Instagram black and white logo that has a rounded black outlined square with a black outlined circle in the center with a little black dot to it's top right"
+              width="180" height="160">
+          </a></p>
+      </div>
+      <div id="Facebook">
+        <p><a href="https://www.facebook.com/singularityfe?mibextid=LQQJ4d"
+            aria-label="Visit Lizzie Best's Facebook Page">
+            <img src="Icons/Facebook.jpg"
+              alt="Facebook's black and white logo that has a black circle with a white lowercase f in the center."
+              width="160" height="160">
+          </a></p>
+      </div>
+      <div id="Spotify">
+        <p><a
+            href="https://open.spotify.com/user/3126hchaekrdvefr7ck222acnmwq?si=qLzaz2ovSGaYWlMeqMv3BQhttps://open.spotify.com/user/3126hchaekrdvefr7ck222acnmwq?si=qLzaz2ovSGaYWlMeqMv3BQ"
+            aria-label="Visit SingularityFe's Spotify Profile">
+            <img src="Icons/Spotify.png" alt="SingularityFe's Spotify Profile" width="180" height="160">
+          </a></p>
+      </div>
+      <div id="Youtube">
+        <p><a href="https://youtube.com/@SingularityFe?si=fpsE0OO7rThCELcp"
+            aria-label="Visit SingularityFe's YouTube channel">
+            <img src="Icons/Youtube.jpg" alt="SingularityFe's YouTube Channel" width="180" height="160">
+          </a></p>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
